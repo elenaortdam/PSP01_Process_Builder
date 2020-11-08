@@ -1,0 +1,14 @@
+ANA
+9
+LUIS
+30
+PEDRO
+45
+MARTA
+15
+
+
+PEPE
+DDD
+34
+*
