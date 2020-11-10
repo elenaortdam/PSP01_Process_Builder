@@ -20,7 +20,6 @@ public class Ejercicio_ejecutaparte1 {
 
 				String line;
 				while ((line = br.readLine()) != null) {
-					System.out.println(line);
 					line = line + "\n";
 					os.write(line.getBytes());
 					os.flush();
@@ -30,6 +29,14 @@ public class Ejercicio_ejecutaparte1 {
 				System.out.printf("Fichero: %s no existe...", nombreFichero);
 			} catch (IOException e) {
 				e.printStackTrace();
+			}
+
+			try (InputStream is = p.getInputStream();
+				 BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
+				String liner;
+				while ((liner = br.readLine()) != null) {
+					System.out.println("Lectura: " + liner);
+				}
 			}
 
 			InputStream is = p.getInputStream();

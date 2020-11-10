@@ -1,0 +1,6 @@
+1 -Introduce datos de alumnos: 
+Escribe un nombre: Introduce la EDAD entre 1 y 99: 2 -Introduce datos de alumnos: 
+Escribe un nombre: Fin de proceso de lectura...
+Datos leídos: 1
+Alumno con más edad: ANA
+Alumno con menos edad: ANA
