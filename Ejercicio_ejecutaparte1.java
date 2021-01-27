@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Ejercicio_ejecutaparte1 {
 
-	void cargaFicheros(String... args) throws IOException, InterruptedException {
+	void cargaFicheros(String... args) throws IOException {
 		for (String nombreFichero : args) {
 			File directorio = new File(System.getProperty("user.dir"));
 			File ficheroResultados = new File("S" + nombreFichero);
@@ -31,36 +31,19 @@ public class Ejercicio_ejecutaparte1 {
 				e.printStackTrace();
 			}
 
-			try (InputStream is = p.getInputStream();
-				 BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
-				String liner;
-				while ((liner = br.readLine()) != null) {
-					System.out.println("Lectura: " + liner);
-				}
-			}
+//			try (InputStream is = p.getInputStream();
+//				 BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
+//				String liner;
+//				while ((liner = br.readLine()) != null) {
+//					System.out.println("Lectura: " + liner);
+//				}
+//			}
 
-			InputStream is = p.getInputStream();
-			int c;
-			while ((c = is.read()) != -1)
-				System.out.println((char) c);
-			is.close();
-
-/*
-			InputStream is = p.getInputStream();
-			int c;
-			while ((c = is.read()) != -1)
-				System.out.println((char) c);
-			is.close();
-			int exitValue;
-			try {
-
-				exitValue = p.waitFor();
-				System.out.println("Valor de salida: " + exitValue);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-
- */
+//			InputStream is = p.getInputStream();
+//			int c;
+//			while ((c = is.read()) != -1)
+//				System.out.println((char) c);
+//			is.close();
 		}
 
 	}

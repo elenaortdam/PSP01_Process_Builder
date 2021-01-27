@@ -12,14 +12,11 @@ public class Ejercicio2_parte1 {
 			String cadena = br.readLine();
 			System.out.printf("Cadena: %s\n", cadena);
 			if (cadena.length() == 0) {
-//				System.out.println("La cadena está vacía...");
 				System.exit(1);
 			}
 			if (esPalindromo(cadena)) {
-//				System.out.println("La cadena es palíndromo...");
 				System.exit(2);
 			} else {
-//				System.out.println("La cadena no es palíndromo...");
 				System.exit(3);
 			}
 		} catch (IOException e) {
