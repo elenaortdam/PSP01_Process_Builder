@@ -1,6 +1,6 @@
-# [gradosuperiordam.top](https://gradosuperiordam.top/asignaturas/programacion-de-servicios-y-procesos/#Tema_1._Programacion_multiproceso)
+Ejercicios resueltos dam en:
 
-<a href="https://gradosuperiordam.top/asignaturas/programacion-de-servicios-y-procesos/#Tema_1._Programacion_multiproceso">gradosuperiordam.top</a>
+# [gradosuperiordam.top](https://gradosuperiordam.top/asignaturas/programacion-de-servicios-y-procesos/#Tema_1._Programacion_multiproceso)
 
 Parte 1
 ---
